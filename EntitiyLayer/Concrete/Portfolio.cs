@@ -18,6 +18,10 @@ namespace EntitiyLayer.Concrete
         public bool PortfolioStatus { get; set; }
 		public DateTime PortfolioPublıshDate { get; set; }
         public string PortfolioMaınImage { get; set; }
+        public int CategoryId { get; set; }
+        public Category Category { get; set; }
+		public int TagId { get; set; }
+		public Tag Tag { get; set; }
 
-    }
+	}
 }

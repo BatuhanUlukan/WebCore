@@ -18,6 +18,11 @@ namespace EntitiyLayer.Concrete
         public bool ArticleStatus { get; set; }
 		public DateTime ArticlePublıshDate { get; set; }
         public string ArticleMaınImage { get; set; }
+		public int CategoryId { get; set; }
+		public Category Category { get; set; }
+		public int TagId { get; set; }
+		public Tag Tag { get; set; }
+		public List<Comment> Comments { get; set; }
 
     }
 }

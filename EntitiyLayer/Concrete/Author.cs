@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EntitiyLayer.Concrete;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -20,5 +21,10 @@ namespace EntitiyLayer.Concrete
 		public string AuthorJob { get; set; }
 		public string AuthorImage { get; set; }
 		public bool AuthorStatus { get; set; }
+		public int ServiceId { get; set; }
+		public Service Service { get; set; }
+		public int SocialId { get; set; }
+		public Social Social { get; set; }
+
 	}
 }

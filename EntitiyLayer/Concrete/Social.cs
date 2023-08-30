@@ -15,6 +15,7 @@ namespace EntitiyLayer.Concrete
         public string SocialLink { get; set; }
         public string SocialIcon { get; set; }
         public bool SocialStatus { get; set; }
+		public List<Author> Authors { get; set; }
 
-    }
+	}
 }

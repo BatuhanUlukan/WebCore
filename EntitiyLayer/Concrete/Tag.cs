@@ -13,5 +13,7 @@ namespace EntitiyLayer.Concrete
 		public int TagId { get; set; }
 		public string TagName { get; set; }
 		public bool TagStatus { get; set; }
+		public List<Article> Articles { get; set; }
+		public List<Portfolio> Portfolios { get; set; }
 	}
 }
