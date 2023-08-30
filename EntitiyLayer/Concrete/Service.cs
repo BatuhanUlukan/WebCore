@@ -14,6 +14,7 @@ namespace EntitiyLayer.Concrete
         public string ServiceName { get; set; }
         public string ServiceContent { get; set; }
         public string ServiceIcon { get; set; }
+        public string ServıceHomeImage { get; set; }
         public bool ServiceStatus { get; set; }
 		public List<Author> Authors { get; set; }
 

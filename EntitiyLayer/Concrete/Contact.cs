@@ -12,7 +12,8 @@ namespace EntitiyLayer.Concrete
 		[Key]
 		public int ContactId { get; set; }
 		public string ContactName { get; set; }
-		public string ContactMapsLınk { get; set; }
+        public string ContactTTMap { get; set; }
+        public string ContactMapsLınk { get; set; }
         public string ContactAddress { get; set; }
         public string ContactNumber { get; set; }
         public string ContactMaıl { get; set; }
