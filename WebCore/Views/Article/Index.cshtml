@@ -1,0 +1,275 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<!--
+   Template:   Aivo - Multipurpose Portfolio HTML Website Template
+   Author:     Themetorium
+   URL:        https://themetorium.net
+-->
+
+<html lang="en">
+<head>
+
+    <!-- Title -->
+    <title>Blog / Aivo - Multipurpose Portfolio HTML Website Template</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Responsive multipurpose portfolio HTML website template">
+    <meta name="keywords" content="HTML5, CSS3, Bootsrtrap, Responsive, Multipurpose, Portfolio, Template, Theme, Website, Themetorium" />
+    <meta name="author" content="themetorium.net">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon (http://www.favicon-generator.org/) -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    @await Component.InvokeAsync("CSS")
+
+
+</head>
+
+
+
+<body id="body" class="animsition tt-boxed">
+
+
+    <header id="header" class="header-show-hide-on-scroll menu-align-right">
+
+        <!-- Begin header inner -->
+        <div class="header-inner tt-wrap">
+            @await Component.InvokeAsync("Header")
+        </div>
+        <!-- End header inner -->
+
+    </header>
+    <!-- End header -->
+    <!-- End header -->
+    <!-- *************************************
+    *********** Begin body content ***********
+    ************************************** -->
+    <div id="body-content">
+
+
+        <!-- ========================
+        ///// Begin page header /////
+        =============================
+        -->
+        <section id="page-header">
+
+            <!-- Begin page header image
+            =============================
+
+            -->
+            <div class="page-header-image parallax-6 bg-image" style="background-image: url(assets/img/page-header/page-header-bg-13.jpg);">
+
+                <!-- Element cover
+                ===================
+                -->
+                <div class="cover cover-opacity-4"></div>
+
+            </div>
+            <!-- End page header image -->
+            <!-- Begin page header inner -->
+            <div class="page-header-inner tt-wrap">
+
+                <!-- Begin page header caption
+                ===============================
+                -->
+                <div class="page-header-caption ph-cap-xlg ph-cap-light parallax-5 fade-out-scroll-4">
+                    <div class="ph-title-wrap">
+                        <h1 class="page-header-title">Blog</h1>
+                    </div>
+                    <div class="ph-subtitle-wrap">
+                        <h2 class="page-header-subtitle">Articles &amp; News</h2>
+                    </div>
+
+                    <!-- Begin zig-zag separator
+                    =============================
+                    -->
+                    <div class="zig-zag-separator zig-zag-lg">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+
+                </div>
+                <!-- End page header caption -->
+
+            </div>
+            <!-- End page header inner -->
+            <!-- Begin page header animated element
+
+            -->
+            <div class="ph-anim-element-wrap ph-anim-circle parallax-4">
+                <div class="ph-anim-element-holder">
+                    <div class="ph-anim-element"></div>
+                </div>
+            </div>
+            <!-- End page header animated element -->
+
+        </section>
+        <!-- End page header -->
+        <!-- =====================================
+        ///// Begin blog list section (grid) /////
+        ====================================== -->
+        <section id="blog-list-section" class="blog-list-grid blg-fluid-sidebar">
+            <div class="blog-list-inner">
+                <!-- add/remove class "tt-wrap" to enable/disable element boxed layout (class "tt-boxed" is required in <body> tag!). Note: additionally you can use prepared helper class "max-width-*" to add custom width to "tt-wrap". Example: "max-width-1500" (class "tt-wrap" is still required!). More info about helper classes in file "helper.css" -->
+
+                <div class="row no-margin">
+
+                    <!-- Content column -->
+                    <div class="col-md-8 col-lg-9 no-padding-left no-padding-right">
+
+                        <div class="isotope-wrap">
+
+
+                            <div class="isotope col-3 gutter-4">
+
+                                <!-- Begin isotope items wrap
+                                ============================== -->
+                                <div class="isotope-items-wrap no-margin">
+
+                                    <!-- Grid sizer (do not remove!!!) -->
+                                    <div class="grid-sizer"></div>
+
+
+                                    <!-- =====================
+                                    /// Begin isotope item ///
+                                    ====================== -->
+
+                                    <div class="isotope-item">
+
+                                        <!-- Begin blog list item -->
+                                        <article class="blog-list-item">
+
+                                            <!-- Begin blog list item image -->
+                                            <div class="bl-item-image-wrap">
+                                                <a href="blog-single.html" class="bl-item-image bg-image lazy" data-src="assets/img/blog/list/blog-1.jpg"></a>
+                                            </div>
+                                            <!-- End blog list item image -->
+                                            <!-- Begin blog list item info -->
+                                            <div class="bl-item-info">
+                                                <div class="bl-item-category">
+                                                    <a href="blog-archive.html">Web Design</a> <a href="blog-archive.html">Coding</a>
+                                                </div>
+                                                <a href="blog-single.html" class="bl-item-title"><h2>Responsive Web Design: 50 Examples and Best Practices</h2></a>
+                                                <div class="bl-item-meta">
+                                                    <span class="published">Nov 28, 2017</span>
+                                                    <span class="posted-by">- by <a href="#" title="View all posts by Lucas Sanski">Lucas Sanski</a></span>
+                                                </div>
+                                                <div class="bl-item-desc">
+                                                    Etiam sollicitudin dolor lorem, non aliquet quam dignissim vel. Nunc at eros non odio vestibulum porttitor egestas ut nisl proin...
+                                                </div>
+
+                                                <!-- Begin blog list item attributes -->
+                                                <ul class="bl-item-attr">
+                                                    <li>
+                                                        <!-- Begin comments count -->
+                                                        <a href="blog-single.html#blog-post-comments" class="bl-item-comments-count" title="Read comments"><i class="far fa-comment"></i> 10</a>
+                                                        <!-- End comments count -->
+                                                    </li>
+                                                </ul>
+                                                <!-- End blog list item attributes -->
+
+                                            </div>
+                                            <!-- End blog list item info -->
+
+                                        </article>
+                                        <!-- End blog list item -->
+
+                                    </div>
+                                    <!-- End isotope item -->
+
+
+                                </div>
+                                <!-- End isotope items wrap -->
+
+                            </div>
+                            <!-- End isotope -->
+
+                        </div> <!-- /.isotope-wrap -->
+                        <!-- Begin tt-pagination
+                        =========================
+                        * Use class "tt-pagin-center" or "tt-pagin-right" to align pagination
+                        * Use class "tt-pagin-rounded" to enable pagination rounded style -->
+                        <div class="tt-pagination-wrap">
+                            <ul class="tt-pagination">
+                                <li><a href="" title="Go to the first page">First</a></li>
+                                <li><a href="" title="Go to the previous page">Prev</a></li>
+                                <li class="active"><a href="#0">1</a></li>
+                                <li><a href="">2</a></li>
+                                <li><a href="">3</a></li>
+                                <li><span>...</span></li>
+                                <li><a href="">6</a></li>
+                                <li><a href="">7</a></li>
+                                <li><a href="">8</a></li>
+                                <li><a href="" title="Go to the next page">Next</a></li>
+                                <li><a href="" title="Go to the last page">Last</a></li>
+                            </ul>
+
+                            <div class="tt-pagination-info">
+                                <span>Showing page 1 of 8</span>
+                                <span>Portfolios 1-15 of 114</span>
+                            </div>
+                        </div>
+                        <!-- End tt-pagination -->
+
+                    </div> <!-- /.col (Content column) -->
+                    <!-- Sidebar column -->
+                    <div class="col-md-4 col-lg-3 no-padding-left no-padding-right">
+
+                        <!-- Begin sidebar (sidebar right)
+                        =================================== -->
+                        <div class="sidebar sidebar-right">
+                            <div class="row">
+                                @await Component.InvokeAsync("SideBar")
+                            </div> <!-- /.row -->
+                        </div>
+                        <!-- End sidebar -->
+
+                    </div> <!-- /.col (Sidebar column) -->
+
+                </div> <!-- /.row -->
+
+            </div> <!-- /.blog-list-inner -->
+        </section>
+
+        <section id="footer" class="footer-dark no-margin-top">
+
+            @await Component.InvokeAsync("Footer")
+
+        </section>
+
+
+    </div>
+    <!-- End body content -->
+    <!-- ====================
+    ///// Scripts below /////
+    ===================== -->
+    @await Component.InvokeAsync("JS")
+
+
+
+    <!--==============================
+    ///// Begin Google Analytics /////
+    ============================== -->
+    <!-- Paste your Google Analytics code here.
+    Go to http://www.google.com/analytics/ for more information. -->
+    <!--==============================
+    ///// End Google Analytics /////
+    ============================== -->
+
+
+
+</body>
+
+</html>
